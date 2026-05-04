@@ -14,7 +14,6 @@ import java.time.LocalDateTime;
 @FilterDef(name = "deletedFilter", defaultCondition = "deletedAt IS NULL")
 @Filter(name = "deletedFilter")
 public abstract class Base {
-
     @CreationTimestamp
     @Column(nullable = false, updatable = false)
     private LocalDateTime createdAt;
