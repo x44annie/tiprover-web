@@ -2,8 +2,8 @@ package com.note.tiprover.entity;
 
 import com.fasterxml.uuid.Generators;
 import jakarta.persistence.*;
-import lombok.Data;
 import jakarta.validation.constraints.Email;
+import lombok.Data;
 import lombok.EqualsAndHashCode;
 
 import java.util.UUID;
